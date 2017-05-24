@@ -393,6 +393,11 @@ header .hero {
   text-align: center;
   margin-right: 8px;
 }
+.active {
+  background-color: #FF9E17;
+  border-radius: 4px;
+  padding: 4px;
+}
 
 /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
