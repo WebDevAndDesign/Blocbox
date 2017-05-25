@@ -80,7 +80,6 @@ header {
   background: #5D2F89 url("../images/computer.png") top center no-repeat;
   background: url("../images/computer.png") top center no-repeat, linear-gradient(206deg, #3D2258 0%, #5D2F89 94%);
   background-size: cover;
-  text-align: center;
   padding: 4em 0;
 }
 header nav {
