@@ -452,8 +452,8 @@ header .hero {
 }
 .active {
   background-color: #FF9E17;
-  border-radius: 4px;
-  padding: 4px;
+  padding: 6px;
+  margin: 10px -12px -20px -10px;
 }
 
 /* LEFT NAVBAR SETTINGS */
@@ -579,6 +579,9 @@ padding:20px;
   top: 0;
   left: 0;
   right: 0;
+}
+.item-box img {
+  width: 100%;
 }
 .item-box h2 {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
