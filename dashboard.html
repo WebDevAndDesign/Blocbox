@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/dropit.css">
   </head>
   <body class="dashboard">
     <!-- RESPONSIVE NAV -->
@@ -59,8 +58,8 @@
             <h1>All Items</h1>
             <ul class="menu">
             <li>
-              <a href="#" class="btn">+ Add</a>
-              <ul>
+              <a href="#" class="btn" class="add-button">+ Add</a>
+              <ul class="add-menu">
                   <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
                   <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
                   <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
@@ -71,8 +70,7 @@
         </div>
         <div class="container">
           <div class="content-item">
-            <div class="item-box">
-              <a href="images.html"><img src="https://images.pexels.com/photos/3540/restaurant-alcohol-bar-drinks.jpg?h=350&auto=compress&cs=tinysrgb"></a>
+            <div class="item-box image-box" id="image-box-1">
             </div>
           </div>
           <div class="content-item">
@@ -130,12 +128,13 @@
       </section>
     </main>
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/dropit.js"></script>
     <script type="text/javascript">
-      $(".menu").dropit();
-      $(".cog").dropit();
-      $( "#menu" ).click(function() {
+      $("#menu").click(function() {
         $("#left-nav").toggleClass("open", 200);
+      });
+      $(".add-button").click(function() {
+        $(".add-menu").toggleClass("btn-open", 200);
+        console.log("function running");
       });
     </script>
   </body>

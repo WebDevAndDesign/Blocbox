@@ -139,6 +139,12 @@ header .hero {
   border: 2px solid #FF9E17;
   box-shadow: 0px 2px 0px 0px #CB7D07;
 }
+.add-menu {
+  display: none;
+}
+.btn-open {
+  display: block;
+}
 
 /* BENEFITS */
 .benefits {
@@ -452,8 +458,11 @@ header .hero {
 }
 .active {
   background-color: #FF9E17;
-  padding: 6px;
+  padding: 10px;
   margin: 10px -12px -20px -10px;
+}
+.active a {
+  margin-left: 5px;
 }
 
 /* LEFT NAVBAR SETTINGS */
@@ -526,6 +535,14 @@ box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
 position: relative;
 overflow: hidden;
 padding:20px;
+}
+.image-box {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#image-box-1 {
+  background-image: url(https://images.pexels.com/photos/3540/restaurant-alcohol-bar-drinks.jpg?h=350&auto=compress&cs=tinysrgb);
 }
 @media (min-width: 460px) {
   .content {
