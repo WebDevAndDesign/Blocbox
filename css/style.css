@@ -35,8 +35,22 @@ p {
  .container:after {
    clear: both;
  }
- .one-half, .one-third, .one-fourth {
-   width:96%;
+ .one-half-left {
+   width:92%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin: 0;
+ }
+ .one-half-right {
+   width:92%;
+   float:right;
+   position:relative;
+   min-height: 1px;
+   margin: 0;
+ }
+.one-third, .one-fourth {
+   width:92%;
    float:left;
    position:relative;
    min-height: 1px;
@@ -47,18 +61,33 @@ p {
   .container {
     width: 310px;
   }
+  .one-half-left {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .one-half-right {
+    display: block;
+  }
 }
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
+  .one-half-left {
+    width: 46%;
+  }
+  .one-half-right {
+    width: 46%;
+  }
 }
-
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
-  .one-half {
+  .one-half-left {
+    width: 46%;
+  }
+  .one-half-right {
     width: 46%;
   }
   .one-third {
