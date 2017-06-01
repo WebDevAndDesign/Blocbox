@@ -2,11 +2,11 @@ html, body {
   overflow-x: hidden;
 }
 body {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  color:#333333
+  font-family: 'Lato', sans-serif; Helvetica, Arial, sans-serif;
+  color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fredoka One", Helvetica, Arial, sans-serif;
+  font-family: 'Fredoka One', cursive; Helvetica, Arial, sans-serif;
 }
 h2 {
   font-size: 28px;
@@ -45,6 +45,7 @@ p {
  .one-half-right {
    width:92%;
    float:right;
+   text-align: center;
    position:relative;
    min-height: 1px;
    margin: 0;
@@ -66,10 +67,17 @@ p {
   }
   .one-half-left {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
   }
   .one-half-right {
-    display: block;
+    float: none;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  .one-half-right ul {
+    float: none;
+    -webkit-padding-start: 0;
   }
 }
 @media (min-width: 768px) {
@@ -78,9 +86,11 @@ p {
   }
   .one-half-left {
     width: 46%;
+    text-align: left;
   }
   .one-half-right {
     width: 46%;
+    text-align: right;
   }
   .testimonial-hidden {
     display: block;
@@ -163,8 +173,8 @@ header .hero {
    margin:95px 0 0;
  }
  header .hero p {
-   font-size: 22px;
-   line-height: 26px;
+   font-size: 16px;
+   line-height: 22px;
    font-weight: 100;
    margin:10px 0 40px;
  }
