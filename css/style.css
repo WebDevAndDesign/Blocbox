@@ -15,8 +15,8 @@ h2 {
 }
 p {
   font-size: 16px;
-  line-height: 19px;
-  font-weight: 100;
+  line-height: 22px;
+  font-weight: 300;
 }
 
 /* GRID */
@@ -175,7 +175,7 @@ header .hero {
  header .hero p {
    font-size: 16px;
    line-height: 22px;
-   font-weight: 100;
+   font-weight: 300;
    margin:10px 0 40px;
  }
 
@@ -252,7 +252,7 @@ header .hero {
    margin-top:0px;
  }
  .box h3 {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     background: #E2E2E2;
@@ -268,14 +268,14 @@ header .hero {
     font-size:50px;
     font-weight: normal;
     margin:40px 0 10px;
-    color:#5D2F89;
+    color:#FF9E17;
   }
   .box h4 span {
     font-size:32px;
     vertical-align: top;
   }
   .box h4 span.month {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: 100;
     color:#888888;
     font-size:20px;
@@ -319,6 +319,9 @@ header .hero {
 .testimonials blockquote {
   color:#FFFFFF;
   text-align: left;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.7;
   font-style: italic;
   background:#5D2F89;
   position: relative;
@@ -560,7 +563,7 @@ header .hero {
   margin: 0 1% 20px;
 }
 .content .header h1 {
-font-family: "Avenir", Helvetica, Arial, sans-serif;
+font-family: "Lato", Helvetica, Arial, sans-serif;
 font-weight: 100;
 margin:0 0 30px;
 font-size: 36px;
@@ -666,7 +669,7 @@ padding:20px;
   width: 100%;
 }
 .item-box h2 {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 15px;
   line-height: 17px;
